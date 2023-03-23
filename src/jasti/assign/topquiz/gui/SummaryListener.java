@@ -7,7 +7,7 @@ import jasti.assign.topquiz.gui.ScoreSummary;
 
 /**
  * Facilitate communication between question panel and summary panel
- * @author Priya
+ * @author GnanaMounika
  * 
  */
 public interface SummaryListener {

@@ -61,20 +61,20 @@ public class SubjectPanel extends JPanel {
 		
 		rdoGeography=new JRadioButton("Geography");
 		rdoGeography.setForeground(new Color(0, 0, 128));
-		rdoGeography.setFont(new Font("Century Schoolbook", Font.BOLD, 18));
+		rdoGeography.setFont(new Font("Century Schoolbook", Font.ITALIC, 12));
 		rdoGeography.setActionCommand("Geography");
 		rdoGeography.addActionListener(rdoBtnEventHandler);
 		
 		rdoScience = new JRadioButton("Science");
 		rdoScience.setForeground(new Color(0, 0, 128));
-		rdoScience.setFont(new Font("Century Schoolbook", Font.BOLD, 18));
+		rdoScience.setFont(new Font("Century Schoolbook", Font.ITALIC, 12));
 		
 		rdoScience.setActionCommand("Science");
 		rdoScience.addActionListener(rdoBtnEventHandler);
 		
 		rdoEntertainment=new JRadioButton("Entertainment");
 		rdoEntertainment.setForeground(new Color(0, 0, 128));
-		rdoEntertainment.setFont(new Font("Century Schoolbook", Font.BOLD, 18));
+		rdoEntertainment.setFont(new Font("Century Schoolbook", Font.ITALIC, 12));
 		rdoEntertainment.setActionCommand("Entertainment");
 		rdoEntertainment.addActionListener(rdoBtnEventHandler);
 		
@@ -85,7 +85,7 @@ public class SubjectPanel extends JPanel {
 		
 		//prompt for topic selection
 		JLabel lblWelcome=new JLabel("<html> Choose a Topic<br/></html>",SwingConstants.LEFT);
-		lblWelcome.setFont(new Font("Century Schoolbook", Font.BOLD, 20));
+		lblWelcome.setFont(new Font("Century Schoolbook", Font.ITALIC, 15));
 		
 		
 		//add controls to panel

@@ -283,7 +283,7 @@ public class QuestionPanel extends JPanel {
 					{
 						//correct, highlight in green, update Score
 						rdoSelected.setSize(rdoSelected.getParent().getWidth(),rdoSelected.getHeight());//resizing to set bg color to full length of container
-						rdoSelected.setBackground(Color.GREEN);
+					//	rdoSelected.setBackground(Color.GREEN);
 						score+=5;//increase score
 						correctAnswers++;//increment correct answer counter
 						qb.incrementCorrectAnswers();
@@ -297,7 +297,7 @@ public class QuestionPanel extends JPanel {
 					{
 						//wrong, highlight in red, update Score
 						rdoSelected.setSize(rdoSelected.getParent().getWidth(),rdoSelected.getHeight());//resizing to set bg color to full length of container
-						rdoSelected.setBackground(Color.RED);
+					//	rdoSelected.setBackground(Color.RED);
 					}
 					
 					//if 10 questions attempted, end quiz.

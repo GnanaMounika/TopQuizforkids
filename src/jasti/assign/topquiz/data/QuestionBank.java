@@ -73,7 +73,7 @@ public abstract class QuestionBank {
 	/**
 	 * Load questions from file
 	 * @param fileName
-	 * @author Priya
+	 * @author GnanaMounika
 	 */
 	public void getAllQuestions(String fileName)
 	{
@@ -165,7 +165,7 @@ public abstract class QuestionBank {
 	/**
 	 * Return a unique random question
 	 * @return Question
-	 * @author Priya
+	 * @author Gnana
 	 */
 	public abstract Question getRandomQuestion();
 		
@@ -173,7 +173,7 @@ public abstract class QuestionBank {
 	/**
 	 * Calculates score percentage for each topic
 	 * @return double
-	 * @author Priya
+	 * @author GnanaMounika
 	 */
 	public double getPercentageScore()
 	{
@@ -192,7 +192,7 @@ public abstract class QuestionBank {
 	 * Get question type
 	 * @param questionType string
 	 * @return QuestionType enum
-	 * @author Priya
+	 * @author GnanaMounika
 	 */
 	private QuestionType getQuestionType(String questionType)
 	{

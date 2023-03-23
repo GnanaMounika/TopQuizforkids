@@ -31,7 +31,7 @@ public class HeaderPanel extends JPanel {
 	 */
 	public HeaderPanel() {
 		
-		setBackground(new Color(150, 110, 255));
+	//	setBackground(new Color(150, 110, 255));
 		setLayout(new GridLayout(0,1));
 		
 		//set size
@@ -42,14 +42,14 @@ public class HeaderPanel extends JPanel {
 		
 		lblTitle=new JLabel("Top Quiz",SwingConstants.CENTER);
 		lblTitle.setToolTipText("Top Quiz - Learning through fun ");
-		lblTitle.setForeground(new Color(0, 0, 255));
-		lblTitle.setBackground(new Color(255, 255, 128));
-		lblTitle.setFont(new Font("Century Schoolbook", Font.BOLD, 40));
+	//	lblTitle.setForeground(new Color(0, 0, 255));
+	//	lblTitle.setBackground(new Color(255, 255, 128));
+	//	lblTitle.setFont(new Font("Century Schoolbook", Font.BOLD, 40));
 		
 		lblSubTitle=new JLabel("Learning through fun",SwingConstants.CENTER);
-		lblSubTitle.setForeground(new Color(255, 255, 255));
-		lblSubTitle.setBackground(new Color(0, 0, 128));
-		lblSubTitle.setFont(new Font("Century Schoolbook", Font.ITALIC, 40));
+	//	lblSubTitle.setForeground(new Color(255, 255, 255));
+	//	lblSubTitle.setBackground(new Color(0, 0, 128));
+	//	lblSubTitle.setFont(new Font("Century Schoolbook", Font.ITALIC, 40));
 		
 		//add to layout
 		add(lblTitle);

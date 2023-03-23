@@ -81,7 +81,7 @@ public class TopQuizFrame extends JFrame {
 		initValues();
 		//get content pane
 		contentPane=getContentPane();
-		contentPane.setBackground(new Color(255, 255, 255));
+	//	contentPane.setBackground(new Color(255, 255, 255));
 		
 		//FRAME properties
 		//set default size and minimum size
@@ -149,7 +149,7 @@ public class TopQuizFrame extends JFrame {
    
         nameError=new JLabel("",SwingConstants.CENTER);	
         
-        JLabel label = new JLabel("Enter your Nameeeeee :");
+        JLabel label = new JLabel("Enter your Name :");
         textPane.add(label);
         textPane.add(textField);
         

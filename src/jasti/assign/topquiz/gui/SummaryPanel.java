@@ -37,15 +37,15 @@ import javax.swing.border.TitledBorder;
 
 /**
  * Summary panel to show score summary
- * @author Priya
+ * @author Gnanamounika
  * 
  */
 public class SummaryPanel extends JPanel{
 	
 	//member controls
 	private JLabel lblTotalScore;
-	private JLabel lblAttempted;
-	private JLabel lblCorrect;
+//	private JLabel lblAttempted;
+//	private JLabel lblCorrect;
 	private JLabel lblThank;
 	private JLabel lblInfo;
 	
@@ -71,18 +71,18 @@ public class SummaryPanel extends JPanel{
 		
 		lblThank=new JLabel("<html>Thank You. Here is your score statistics.<br/></html>",SwingConstants.CENTER);
 		lblTotalScore=new JLabel("Your score:"+summary.getTotalScore());
-		lblAttempted=new JLabel("Number of questions attempted:"+summary.getTotalQuestions());
-		lblCorrect=new JLabel("Number of correct answers:"+summary.getCorrectAnswers());
+	//	lblAttempted=new JLabel("Number of questions attempted:"+summary.getTotalQuestions());
+	//	lblCorrect=new JLabel("Number of correct answers:"+summary.getCorrectAnswers());
 		lblInfo=new JLabel();
 		
 		lblThank.setFont(new Font("Calibri", Font.BOLD, 25));
 		lblThank.setForeground(new Color(0, 0, 139));
 		lblTotalScore.setFont(new Font("Calibri", Font.BOLD, 20));
 		lblTotalScore.setForeground(new Color(0, 128, 0));
-		lblAttempted.setFont(new Font("Calibri", Font.BOLD, 20));
-		lblAttempted.setForeground(new Color(0, 128, 0));
-		lblCorrect.setFont(new Font("Calibri", Font.BOLD, 20));
-		lblCorrect.setForeground(new Color(0, 128, 0));
+	//	lblAttempted.setFont(new Font("Calibri", Font.BOLD, 20));
+	//	lblAttempted.setForeground(new Color(0, 128, 0));
+	//	lblCorrect.setFont(new Font("Calibri", Font.BOLD, 20));
+	//	lblCorrect.setForeground(new Color(0, 128, 0));
 		lblInfo.setFont(new Font("Calibri", Font.BOLD, 15));
 		lblInfo.setForeground(new Color(0, 0, 139));
 		
@@ -94,7 +94,7 @@ public class SummaryPanel extends JPanel{
 			lblInfo.setForeground(Color.RED);
 		}
 		else{
-			lblInfo.setText("<html>View your performance in <u>each of the topics you scored</u> below.</html>");
+			lblInfo.setText("<html>View your performance</html>");
 			lblInfo.setForeground(new Color(0, 0, 139));
 		}
 		
@@ -107,8 +107,8 @@ public class SummaryPanel extends JPanel{
 		
 		finalScorePane.add(lblThank);
 		finalScorePane.add(lblTotalScore);
-		finalScorePane.add(lblAttempted);
-		finalScorePane.add(lblCorrect);
+	//	finalScorePane.add(lblAttempted);
+	//	finalScorePane.add(lblCorrect);
 		
 		finalScorePane.add(lblInfo);
 		
@@ -182,7 +182,7 @@ public class SummaryPanel extends JPanel{
 
 /**
  * Create bar chart
- * @author Priya
+ * @author Gnanamounika
  *
  */
 class BarChart extends JPanel
